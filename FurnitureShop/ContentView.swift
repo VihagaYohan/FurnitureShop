@@ -10,6 +10,8 @@ import SwiftUI
 struct ContentView: View {
     // state variable for current tab
     @State private var currentTab: Tab = .Home
+    // instance of global state
+    @StateObject var cartManager = CartManager()
     
     init() {
         // hiding system tabbar
@@ -96,6 +98,7 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environmentObject(CartManager())
 }
 
 enum Tab: String, CaseIterable {
