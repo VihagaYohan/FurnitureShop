@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		152EF7C82C1FE4DD00AF6E14 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EF7C72C1FE4DD00AF6E14 /* Product.swift */; };
 		15783DAB2C1F4B1900341358 /* FurnitureShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15783DAA2C1F4B1900341358 /* FurnitureShopApp.swift */; };
 		15783DAD2C1F4B1900341358 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15783DAC2C1F4B1900341358 /* ContentView.swift */; };
 		15783DAF2C1F4B1B00341358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15783DAE2C1F4B1B00341358 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		152EF7C72C1FE4DD00AF6E14 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		15783DA72C1F4B1900341358 /* FurnitureShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FurnitureShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15783DAA2C1F4B1900341358 /* FurnitureShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureShopApp.swift; sourceTree = "<group>"; };
 		15783DAC2C1F4B1900341358 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		152EF7C62C1FE4CD00AF6E14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				152EF7C72C1FE4DD00AF6E14 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		152EF7C92C1FE5B600AF6E14 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		15783D9E2C1F4B1900341358 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +70,8 @@
 		15783DA92C1F4B1900341358 /* FurnitureShop */ = {
 			isa = PBXGroup;
 			children = (
+				152EF7C92C1FE5B600AF6E14 /* Components */,
+				152EF7C62C1FE4CD00AF6E14 /* Models */,
 				15783DB82C1F4EB900341358 /* Extensions */,
 				15783DAA2C1F4B1900341358 /* FurnitureShopApp.swift */,
 				15783DAC2C1F4B1900341358 /* ContentView.swift */,
@@ -149,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15783DAD2C1F4B1900341358 /* ContentView.swift in Sources */,
+				152EF7C82C1FE4DD00AF6E14 /* Product.swift in Sources */,
 				15783DBA2C1F4EC900341358 /* View+Extension.swift in Sources */,
 				15783DAB2C1F4B1900341358 /* FurnitureShopApp.swift in Sources */,
 			);
