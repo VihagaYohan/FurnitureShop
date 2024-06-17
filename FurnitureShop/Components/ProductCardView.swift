@@ -13,7 +13,7 @@ struct ProductCardView: View {
     var product: Product
     var body: some View {
         ZStack{
-            Color("Secondary")
+            // Color("Secondary")
             
             ZStack(alignment: .bottomTrailing) {
                 VStack(alignment: .leading){
