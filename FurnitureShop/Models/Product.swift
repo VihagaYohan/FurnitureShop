@@ -17,10 +17,10 @@ struct Product: Identifiable {
 }
 
 var productList = [
-    Product(name: "Leather couch", image: "img_1", description: "sample description", supplier: "IKEA", price: 350)
-    Product(name: "Wooden Table", image: "img_1", description: "sample description", supplier: "IKEA", price: 350)
-    Product(name: "Sofa Set", image: "img_1", description: "sample description", supplier: "IKEA", price: 350)
-    Product(name: "Tables", image: "img_1", description: "sample description", supplier: "IKEA", price: 350)
-    Product(name: "Chairs", image: "img_1", description: "sample description", supplier: "IKEA", price: 350)
+    Product(name: "Leather couch", image: "img_1", description: "sample description", supplier: "IKEA", price: 350),
+    Product(name: "Wooden Table", image: "img_1", description: "sample description", supplier: "IKEA", price: 350),
+    Product(name: "Sofa Set", image: "img_1", description: "sample description", supplier: "IKEA", price: 350),
+    Product(name: "Tables", image: "img_1", description: "sample description", supplier: "IKEA", price: 350),
+    Product(name: "Chairs", image: "img_1", description: "sample description", supplier: "IKEA", price: 350),
     Product(name: "Dining table", image: "img_1", description: "sample description", supplier: "IKEA", price: 350)
 ]
