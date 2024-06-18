@@ -29,8 +29,12 @@ struct HomePage: View {
                         
                         Spacer()
                         
-                        Image(systemName: "circle.grid.2x2.fill")
-                            .foregroundColor(Color("Primary"))
+                        NavigationLink(destination:{
+                            ProductsView()
+                        }, label: {
+                            Image(systemName: "circle.grid.2x2.fill")
+                                .foregroundColor(Color("Primary"))
+                        })
                     }
                     .padding()
                     
@@ -50,7 +54,7 @@ struct HomePage: View {
                 }
             }
         }
-        .environmentObject(cartManager)
+        //.environmentObject(CartManager())
     }
 }
 
