@@ -94,7 +94,7 @@ struct ProductDetailView: View {
                             
                             Spacer()
                             
-                            VStack(alignment: .leading) {
+                            VStack(alignment: .trailing) {
                                 Text("Colors")
                                     .font(.system(size: 18))
                                     .fontWeight(.semibold)
@@ -105,7 +105,7 @@ struct ProductDetailView: View {
                                     ColorDotView(color: Color.green)
                                 }
                             }
-                            .frame(width: .infinity, alignment: .leading)
+                            .frame(width: .infinity, alignment: .trailing)
                         }
                         .padding(.vertical)
                     }
