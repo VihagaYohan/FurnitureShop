@@ -39,7 +39,7 @@ struct HomePage: View {
                         HStack(spacing: 10) {
                             ForEach(productList, id:\.id){product in
                                 NavigationLink{
-                                    Text(product.name)
+                                   ProductDetailView(product: product)
                                 } label: {
                                     ProductCardView(product: product)
                                         .environmentObject(cartManager)
@@ -50,6 +50,7 @@ struct HomePage: View {
                 }
             }
         }
+        .environmentObject(cartManager)
     }
 }
 

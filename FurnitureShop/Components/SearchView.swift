@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SearchView: View {
     @State private var search: String = ""
+    private var showCaptureIcon: Bool = false
     
     var body: some View {
         HStack {

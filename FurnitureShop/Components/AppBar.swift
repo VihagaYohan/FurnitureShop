@@ -24,7 +24,8 @@ struct AppBar: View {
                     
                     Spacer()
                     
-                    NavigationLink(destination: Text("")) {
+                    NavigationLink(destination: CartPage()
+                        .environmentObject(cartManager)) {
                         CartButton(numberOfProducts: cartManager.products.count)
                     }
                 }

@@ -15,11 +15,16 @@
 		152EF7D32C2049D600AF6E14 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EF7D22C2049D600AF6E14 /* CartButton.swift */; };
 		152EF7D62C204A9100AF6E14 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EF7D52C204A9100AF6E14 /* HomePage.swift */; };
 		152EF7D82C2059D500AF6E14 /* AppBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EF7D72C2059D500AF6E14 /* AppBar.swift */; };
+		152EF7DA2C2082B800AF6E14 /* SearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EF7D92C2082B800AF6E14 /* SearchPage.swift */; };
+		152EF7DC2C2097B600AF6E14 /* CartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EF7DB2C2097B600AF6E14 /* CartPage.swift */; };
 		15783DAB2C1F4B1900341358 /* FurnitureShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15783DAA2C1F4B1900341358 /* FurnitureShopApp.swift */; };
 		15783DAD2C1F4B1900341358 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15783DAC2C1F4B1900341358 /* ContentView.swift */; };
 		15783DAF2C1F4B1B00341358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15783DAE2C1F4B1B00341358 /* Assets.xcassets */; };
 		15783DB22C1F4B1B00341358 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15783DB12C1F4B1B00341358 /* Preview Assets.xcassets */; };
 		15783DBA2C1F4EC900341358 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15783DB92C1F4EC900341358 /* View+Extension.swift */; };
+		15F0CCF62C21B5C200AD18C9 /* CardProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F0CCF52C21B5C200AD18C9 /* CardProductView.swift */; };
+		15F0CCF82C21BA5000AD18C9 /* PaymentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F0CCF72C21BA5000AD18C9 /* PaymentButton.swift */; };
+		15F0CCFA2C21BF2400AD18C9 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F0CCF92C21BF2400AD18C9 /* ProductDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,12 +36,17 @@
 		152EF7D22C2049D600AF6E14 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
 		152EF7D52C204A9100AF6E14 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		152EF7D72C2059D500AF6E14 /* AppBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBar.swift; sourceTree = "<group>"; };
+		152EF7D92C2082B800AF6E14 /* SearchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPage.swift; sourceTree = "<group>"; };
+		152EF7DB2C2097B600AF6E14 /* CartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPage.swift; sourceTree = "<group>"; };
 		15783DA72C1F4B1900341358 /* FurnitureShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FurnitureShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15783DAA2C1F4B1900341358 /* FurnitureShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureShopApp.swift; sourceTree = "<group>"; };
 		15783DAC2C1F4B1900341358 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		15783DAE2C1F4B1B00341358 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15783DB12C1F4B1B00341358 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		15783DB92C1F4EC900341358 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		15F0CCF52C21B5C200AD18C9 /* CardProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProductView.swift; sourceTree = "<group>"; };
+		15F0CCF72C21BA5000AD18C9 /* PaymentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentButton.swift; sourceTree = "<group>"; };
+		15F0CCF92C21BF2400AD18C9 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,8 @@
 				152EF7CE2C20438500AF6E14 /* SearchView.swift */,
 				152EF7D22C2049D600AF6E14 /* CartButton.swift */,
 				152EF7D72C2059D500AF6E14 /* AppBar.swift */,
+				15F0CCF52C21B5C200AD18C9 /* CardProductView.swift */,
+				15F0CCF72C21BA5000AD18C9 /* PaymentButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -74,6 +86,9 @@
 			isa = PBXGroup;
 			children = (
 				152EF7D52C204A9100AF6E14 /* HomePage.swift */,
+				152EF7D92C2082B800AF6E14 /* SearchPage.swift */,
+				152EF7DB2C2097B600AF6E14 /* CartPage.swift */,
+				15F0CCF92C21BF2400AD18C9 /* ProductDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -197,11 +212,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				152EF7CD2C20437C00AF6E14 /* ProductCardView.swift in Sources */,
+				15F0CCFA2C21BF2400AD18C9 /* ProductDetailView.swift in Sources */,
 				152EF7D82C2059D500AF6E14 /* AppBar.swift in Sources */,
+				152EF7DA2C2082B800AF6E14 /* SearchPage.swift in Sources */,
 				152EF7D12C2044E500AF6E14 /* CartManager.swift in Sources */,
+				15F0CCF62C21B5C200AD18C9 /* CardProductView.swift in Sources */,
 				15783DAD2C1F4B1900341358 /* ContentView.swift in Sources */,
 				152EF7C82C1FE4DD00AF6E14 /* Product.swift in Sources */,
+				152EF7DC2C2097B600AF6E14 /* CartPage.swift in Sources */,
 				152EF7CF2C20438500AF6E14 /* SearchView.swift in Sources */,
+				15F0CCF82C21BA5000AD18C9 /* PaymentButton.swift in Sources */,
 				152EF7D62C204A9100AF6E14 /* HomePage.swift in Sources */,
 				152EF7D32C2049D600AF6E14 /* CartButton.swift in Sources */,
 				15783DBA2C1F4EC900341358 /* View+Extension.swift in Sources */,

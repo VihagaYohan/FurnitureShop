@@ -23,11 +23,11 @@ struct ContentView: View {
     var body: some View {
         TabView(selection: $currentTab){
             HomePage()
+                .tag(Tab.Home)
             
-            Text("Search")
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background()
+            SearchPage()
                 .tag(Tab.Search)
+        
             
             Text("Notification")
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
